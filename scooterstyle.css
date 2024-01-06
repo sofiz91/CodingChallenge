@@ -1,0 +1,92 @@
+body {
+  background-image: url("/Users/sofiachiaro/Desktop/WEB DESIGN/esercizio scooter/background.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  width: 60%;
+  height: 50%;
+  border-radius: 10px 10px 10px 10px;
+}
+
+header{
+  padding-bottom: 0px;
+  margin: 5px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-size: 15px;
+}
+
+#logo {
+  width: 30%;
+  height: 45%;
+}
+
+.top{
+  font-size: 15px;
+  font-family: Roboto, sans-serif;
+  color: rgb(50, 205, 50);
+  font-weight: bold;
+  text-align: center;
+}
+
+nav{
+  background-color: rgb(50, 205, 50);
+  padding: 8px;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+nav > button{
+  font-style: Roboto: sans-serif;
+  font-size: 10px;
+}
+
+section{
+  text-align: left;
+  padding: 8px;
+  font-family: Roboto, sans-serif;
+  color: rgb(255, 255, 255);
+  width: 80%;
+  margin: auto;
+}
+
+.row1 .row2{
+  display: inline-block;
+}
+
+.row1 > span{
+  font-size: 14px;
+}
+
+.row2 > span{
+  font-size: 10px;
+}
+
+#carica-media{
+  background-color: rgb(255, 165, 0);
+  width: 200px;
+  height: 15px;
+  border-radius: 5px;
+  margin-top: 3px;
+}
+
+#carica-alta{
+  background-color: rgb(50, 205, 50);
+  width: 250px;
+  height: 15px;
+  border-radius: 5px;
+  margin-top: 3px;
+}
+
+#carica-bassa{
+  background-color: rgb(255, 69, 0);
+  width: 100px;
+  height: 15px;
+  border-radius: 5px;
+  margin-top: 3px;
+}
